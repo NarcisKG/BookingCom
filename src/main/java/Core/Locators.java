@@ -14,6 +14,7 @@ public class Locators {
     public static By setCheckInCheckOutMonth (String checkInCheckOutMonth){
         String checkInCheckOutMotnhLoc = "//button[@aria-label='***** month']";
         return By.xpath(checkInCheckOutMotnhLoc.replace("*****",checkInCheckOutMonth));}
+    public static By checkInCheckOutNextMonth = By.xpath("//button[@aria-label='Next month']");
     public static By checkInCheckOutPreviousMonth = By.xpath("//button[@aria-label='Previous month']");
     public static By setCheckInDate (String checkInDate){
         String checkInLocator = "(//span[@class='b7df311f35 aa9efce434']//span[text()='*****'])[1]";
