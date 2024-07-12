@@ -6,6 +6,7 @@ import Core.Locators;
 public class HomePage extends BasePage {
 
     public HomePage clickOnDestinationSearchField(){
+        clickOnElement(Locators.signInInfo);
         moveToElement(Locators.destinationSearchField);
         return this;}
     public HomePage selectDestination (String selDestination){
@@ -18,6 +19,7 @@ public class HomePage extends BasePage {
         return this;}
     public HomePage selectCheckInOutMonth (String selectMonth){
         clickOnElement(Locators.checkInCheckOutDateField);
+        clickOnElement(Locators.setCheckInCheckOutMonth(selectMonth));
         clickOnElement(Locators.setCheckInCheckOutMonth(selectMonth));
         return this;}
     public HomePage selectCheckInDate (int checkInDate){

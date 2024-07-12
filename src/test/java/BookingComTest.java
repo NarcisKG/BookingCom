@@ -7,7 +7,7 @@ public class BookingComTest extends HomePage {
 
 public static final String DESTINATION = "Barcelona";
 public static final String MONTH = "Next";
-public static final int START_DATE = 15;
+public static final int START_DATE = 01;
 public static final int END_DATE = 10;
 
 @BeforeEach
@@ -25,7 +25,7 @@ public static final int END_DATE = 10;
 
 }
 
-//@AfterEach
-//    public void close(){quitDriver();}
+@AfterEach
+    public void close(){quitDriver();}
 
 }
