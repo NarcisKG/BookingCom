@@ -7,7 +7,7 @@ public class BookingComTest extends HomePage {
 
 public static final String DESTINATION = "Barcelona";
 public static final String MONTH = "Next";
-public static final int START_DATE = 1;
+public static final int START_DATE = 15;
 public static final int END_DATE = 10;
 
 @BeforeEach
@@ -20,7 +20,8 @@ public static final int END_DATE = 10;
     HomePage test = new HomePage();
     test.clickOnDestinationSearchField().selectDestination(DESTINATION).
          clickOnCheckInOutDate().selectCheckInOutMonth(MONTH).
-         selectCheckInDate(START_DATE).selectCheckOutDate(END_DATE);
+         selectCheckInDate(START_DATE).selectCheckOutDate(END_DATE).
+         clickOnSearchButton();
 
 }
 

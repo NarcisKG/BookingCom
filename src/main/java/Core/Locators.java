@@ -10,7 +10,7 @@ public class Locators {
         String destinationLocator = "//div[@class='d2827c16ec']//div[text()='*****']";
         return By.xpath(destinationLocator.replace("*****", destination));}
 
-    public static By checkInCheckOutDateField = By.xpath("//div[@class='baca574774']");
+    public static By checkInCheckOutDateField = By.xpath("//div[@data-testid='searchbox-dates-container']");
     public static By setCheckInCheckOutMonth (String checkInCheckOutMonth){
         String checkInCheckOutMotnhLoc = "//button[@aria-label='***** month']";
         return By.xpath(checkInCheckOutMotnhLoc.replace("*****",checkInCheckOutMonth));}
