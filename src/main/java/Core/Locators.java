@@ -3,7 +3,7 @@ package Core;
 import org.openqa.selenium.By;
 
 public class Locators {
-
+    //HomePage
     public static By destinationSearchField = By.xpath("//div[@class='c2c15e496d']");
     public static By signInInfo = By.xpath("//button[@aria-label='Dismiss sign-in info.']");
     public static By searchDestination = By.xpath("//input[@name='ss']");
@@ -33,4 +33,15 @@ public class Locators {
     public static By occupancyConfigRoomPlus1 = By.xpath("(//span[@class='c3d4b5d161'])[6]");
 
     public static By searchButton = By.xpath("//span[text()='Search']");
+    //SearchResultPage
+    public static By filterItemPropertyType = By.xpath("(//div[@data-filters-item='ht_id:ht_id=204'])[1]");
+    public static By filterItemFacilities = By.xpath("(//div[@data-filters-item='hotelfacility:hotelfacility=2'])[1]");
+    public static By filterItemMeals = By.xpath("(//div[@data-filters-item='mealplan:mealplan=1'])[1]");
+    public static By filterItemPropertyRatings = By.xpath("(//div[@data-filters-item='class:class=4'])[1]");
+    public static By sortType = By.xpath("//button[@data-testid='sorters-dropdown-trigger']");
+    public static By setSortType (String sortType){
+        String sortTypeLocator = "//button[@data-id='*****']";
+    return By.xpath(sortTypeLocator.replace("*****",sortType));}
+
+
 }

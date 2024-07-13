@@ -9,6 +9,7 @@ public static final String DESTINATION = "Barcelona";
 public static final String MONTH = "Next";
 public static final int START_DATE = 01;
 public static final int END_DATE = 10;
+public static final String SORT_TYPE = "class";
 
 @BeforeEach
     public void setup(){
@@ -21,7 +22,7 @@ public static final int END_DATE = 10;
     test.clickOnDestinationSearchField().selectDestination(DESTINATION).
          clickOnCheckInOutDate().selectCheckInOutMonth(MONTH).
          selectCheckInDate(START_DATE).selectCheckOutDate(END_DATE).
-         clickOnSearchButton();
+         clickOnSearchButton().selectFilters().selectSortType(SORT_TYPE);
 
 }
 

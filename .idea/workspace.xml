@@ -7,7 +7,7 @@
     <list default="true" id="f4fc3261-8064-4dfe-8a01-607002f7c342" name="Changes" comment="Commit For Git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Core/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageMethods/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageMethods/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageMethods/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageMethods/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BookingComTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingComTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
