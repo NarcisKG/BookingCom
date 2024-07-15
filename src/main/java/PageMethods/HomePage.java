@@ -22,11 +22,11 @@ public class HomePage extends BasePage {
         clickOnElement(Locators.setCheckInCheckOutMonth(selectMonth));
         clickOnElement(Locators.setCheckInCheckOutMonth(selectMonth));
         return this;}
-    public HomePage selectCheckInDate (int checkInDate){
-        clickOnElement(Locators.setCheckInDate(Integer.toString(checkInDate)));
+    public HomePage selectCheckInDate (String checkInDate){
+        clickOnElement(Locators.setCheckInDate(checkInDate));
         return this;}
-    public HomePage selectCheckOutDate (int checkOutDate){
-        clickOnElement(Locators.setCheckOutDate(Integer.toString(checkOutDate)));
+    public HomePage selectCheckOutDate (String checkOutDate){
+        clickOnElement(Locators.setCheckOutDate(checkOutDate));
         return this;}
 
     public SearchResultPage clickOnSearchButton(){

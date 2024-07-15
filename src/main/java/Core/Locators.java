@@ -4,11 +4,11 @@ import org.openqa.selenium.By;
 
 public class Locators {
     //HomePage
-    public static By destinationSearchField = By.xpath("//div[@class='c2c15e496d']");
+    public static By destinationSearchField = By.xpath("//div[@data-testid='destination-container']");
     public static By signInInfo = By.xpath("//button[@aria-label='Dismiss sign-in info.']");
     public static By searchDestination = By.xpath("//input[@name='ss']");
     public static By setSearchDestination (String destination){
-        String destinationLocator = "//div[@class='d2827c16ec']//div[text()='*****']";
+        String destinationLocator = "//div[@data-testid='autocomplete-result']//div[text()='*****']";
         return By.xpath(destinationLocator.replace("*****", destination));}
 
     public static By checkInCheckOutDateField = By.xpath("//div[@data-testid='searchbox-dates-container']");
@@ -18,10 +18,10 @@ public class Locators {
     public static By checkInCheckOutNextMonth = By.xpath("//button[@aria-label='Next month']");
     public static By checkInCheckOutPreviousMonth = By.xpath("//button[@aria-label='Previous month']");
     public static By setCheckInDate (String checkInDate){
-        String checkInLocator = "(//span[@class='b7df311f35 aa9efce434']//span[text()='*****'])[1]";
+        String checkInLocator = "//span[@aria-label='***** 2024']";
         return  By.xpath(checkInLocator.replace("*****", checkInDate));}
     public static By setCheckOutDate (String checkOutDate){
-        String checkOutLocator = "(//span[@class='b7df311f35 aa9efce434']//span[text()='*****'])[2]";
+        String checkOutLocator = "//span[@aria-label='***** 2024']";
         return  By.xpath(checkOutLocator.replace("*****", checkOutDate));}
 
     public static By occupancyConfig = By.xpath ("//div[@class='dc5a65e435']");
