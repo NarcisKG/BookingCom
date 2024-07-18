@@ -6,7 +6,7 @@ import Core.Locators;
 public class SearchResultPage extends BasePage {
 
     public SearchResultPage selectFilters(){
-        clickOnElement(Locators.filterItemPropertyType);
+        moveToElement(Locators.filterItemPropertyType);
         clickOnElement(Locators.filterItemFacilities);
         clickOnElement(Locators.filterItemPropertyRatings);
         clickOnElement(Locators.filterItemMeals);
