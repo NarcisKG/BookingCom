@@ -22,7 +22,8 @@ public static final String SORT_TYPE = "class";
     test.clickOnDestinationSearchField().selectDestination(DESTINATION).
          clickOnCheckInOutDate().selectCheckInOutMonth(MONTH).
          selectCheckInDate(START_DATE).selectCheckOutDate(END_DATE).
-         clickOnSearchButton().selectFilters().selectSortType(SORT_TYPE);
+         clickOnSearchButton().selectFilters().
+         selectSortType(SORT_TYPE).clickOnDestination();
 
 }
 

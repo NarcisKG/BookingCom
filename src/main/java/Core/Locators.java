@@ -42,6 +42,7 @@ public class Locators {
     public static By setSortType (String sortType){
         String sortTypeLocator = "//button[@data-id='*****']";
     return By.xpath(sortTypeLocator.replace("*****",sortType));}
+    public static By searchArticle = By.xpath("//div[@data-testid='title'][text()='Royal Ramblas']");
 
 
 }

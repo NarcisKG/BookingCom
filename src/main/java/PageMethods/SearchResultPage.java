@@ -15,4 +15,8 @@ public class SearchResultPage extends BasePage {
         clickOnElement(Locators.sortType);
         clickOnElement(Locators.setSortType(selSortType));
     return new SearchResultPage();}
+
+    public DestinationInfoPage clickOnDestination(){
+        clickOnElement(Locators.searchArticle);
+    return new DestinationInfoPage();}
 }
