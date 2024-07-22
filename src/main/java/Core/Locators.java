@@ -43,6 +43,10 @@ public class Locators {
         String sortTypeLocator = "//button[@data-id='*****']";
     return By.xpath(sortTypeLocator.replace("*****",sortType));}
     public static By searchArticle = By.xpath("//div[@data-testid='title'][text()='Royal Ramblas']");
-
+    //DestinationInfoPage
+    public static By destinationLocation = By.xpath("//span[@aria-describedby='tooltip-1']");
+    public static By setDestinationFacilities (String destinationFacilities){
+        String destinationFacilitiesLocator = "(//span[text()='*****'])[1]";
+    return By.xpath(destinationFacilitiesLocator.replace("*****",destinationFacilities));}
 
 }

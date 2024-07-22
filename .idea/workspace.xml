@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fc3261-8064-4dfe-8a01-607002f7c342" name="Changes" comment="Commit For Git">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageMethods/DestinationInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2024__16_00_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2024__16_00__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Core/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageMethods/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageMethods/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BookingComTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingComTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721312755913</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit For Git">
+      <option name="closed" value="true" />
+      <created>1721314480000</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721314480000</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
