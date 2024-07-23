@@ -34,9 +34,9 @@ public class Locators {
 
     public static By searchButton = By.xpath("//span[text()='Search']");
     //SearchResultPage
-    public static By filterItemPropertyType = By.xpath("(//div[@data-filters-item='ht_id:ht_id=204'])[1]");
-    public static By filterItemFacilities = By.xpath("(//div[@data-filters-item='hotelfacility:hotelfacility=2'])[1]");
-    public static By filterItemMeals = By.xpath("(//div[@data-filters-item='mealplan:mealplan=1'])[1]");
+    public static By filterItemPropertyType = By.xpath("(//div[@data-testid='filters-group-label-content'][text()='Hotels'])[2]");
+    public static By filterItemFacilities = By.xpath("(//div[@data-testid='filters-group-label-content'][text()='Parking'])[1]");
+    public static By filterItemMeals = By.xpath("(//div[@data-testid='filters-group-label-content'][text()='Breakfast Included'])[1]");
     public static By filterItemPropertyRatings = By.xpath("(//div[@data-filters-item='class:class=4'])[1]");
     public static By sortType = By.xpath("//button[@data-testid='sorters-dropdown-trigger']");
     public static By setSortType (String sortType){

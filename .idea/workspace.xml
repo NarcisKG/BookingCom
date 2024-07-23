@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fc3261-8064-4dfe-8a01-607002f7c342" name="Changes" comment="Commit For Git">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2024__16_00_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2024__16_00__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Core/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageMethods/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageMethods/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BookingComTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingComTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

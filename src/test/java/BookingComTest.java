@@ -27,7 +27,7 @@ public static final String SORT_TYPE = "class";
 
 }
 
-//@AfterEach
-//    public void close(){quitDriver();}
+@AfterEach
+    public void close(){quitDriver();}
 
 }
