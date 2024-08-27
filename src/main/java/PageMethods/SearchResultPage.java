@@ -10,6 +10,7 @@ public class SearchResultPage extends BasePage {
         clickOnElement(Locators.filterItemFacilities);
         clickOnElement(Locators.filterItemPropertyRatings);
         clickOnElement(Locators.filterItemMeals);
+
     return new SearchResultPage();}
     public SearchResultPage selectSortType (String selSortType){
         clickOnElement(Locators.sortType);

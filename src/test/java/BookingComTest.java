@@ -27,7 +27,7 @@ public static final String SORT_TYPE = "popularity";
 
 }
 
-//@AfterEach
-//    public void close(){quitDriver();}
+@AfterEach
+    public void close(){quitDriver();}
 
 }
