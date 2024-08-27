@@ -9,7 +9,7 @@ public static final String DESTINATION = "Barcelona";
 public static final String MONTH = "Next";
 public static final String START_DATE = "1 September";
 public static final String END_DATE = "10 October";
-public static final String SORT_TYPE = "class";
+public static final String SORT_TYPE = "popularity";
 
 @BeforeEach
     public void setup(){

@@ -42,7 +42,7 @@ public class Locators {
     public static By setSortType (String sortType){
         String sortTypeLocator = "//button[@data-id='*****']";
     return By.xpath(sortTypeLocator.replace("*****",sortType));}
-    public static By searchArticle = By.xpath("//div[@data-testid='title'][text()='Royal Ramblas']");
+    public static By searchArticle = By.xpath("//div[@data-testid='title'][text()='NH Collection Barcelona Podium']");
     //DestinationInfoPage
     public static By destinationLocation = By.xpath("//span[@aria-describedby='tooltip-1']");
     public static By setDestinationFacilities (String destinationFacilities){

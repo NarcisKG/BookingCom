@@ -20,7 +20,7 @@ public class HomePage extends BasePage {
     public HomePage selectCheckInOutMonth (String selectMonth){
         clickOnElement(Locators.checkInCheckOutDateField);
         clickOnElement(Locators.setCheckInCheckOutMonth(selectMonth));
-        clickOnElement(Locators.setCheckInCheckOutMonth(selectMonth));
+
         return this;}
     public HomePage selectCheckInDate (String checkInDate){
         clickOnElement(Locators.setCheckInDate(checkInDate));
