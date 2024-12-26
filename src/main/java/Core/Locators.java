@@ -18,10 +18,10 @@ public class Locators {
     public static By checkInCheckOutNextMonth = By.xpath("//button[@aria-label='Next month']");
     public static By checkInCheckOutPreviousMonth = By.xpath("//button[@aria-label='Previous month']");
     public static By setCheckInDate (String checkInDate){
-        String checkInLocator = "//span[@aria-label='***** 2024']";
+        String checkInLocator = "//span[@aria-label='***** 2025']";
         return  By.xpath(checkInLocator.replace("*****", checkInDate));}
     public static By setCheckOutDate (String checkOutDate){
-        String checkOutLocator = "//span[@aria-label='***** 2024']";
+        String checkOutLocator = "//span[@aria-label='***** 2025']";
         return  By.xpath(checkOutLocator.replace("*****", checkOutDate));}
 
     public static By occupancyConfig = By.xpath ("//div[@class='dc5a65e435']");
